@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 public class Test
 {
@@ -48,5 +49,41 @@ public class Test
                 break;
         }
     }
+
+
+    public static char AskUserCharÏnput(string question) {
+        return "a";
+    }
+
+    public static int AskUserIntegerInput(string question)
+    {
+        return 0;
+    }
+
+    public static void DisplayResult(int op1, char oper, int op2, int result) { }
+
+    public static void DisplayMessage(string message) { }
+
+    public static int Add(int op1, int op2) {
+        return 0;
+    }
+
+    public static int Substractor(int op1, int op2) {
+        return 0;
+    }
+
+    public static int Multiply(int op1, int op2)
+    {
+        return 0;
+    }
+
+    public static int Divide(int op1, int op2)
+    {
+        return 0;
+    }
+
+
 }
+
+
 

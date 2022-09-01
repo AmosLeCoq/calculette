@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nitra\\source\\repos\\calculette\\calculette\\calculette.csproj": {}
+    "C:\\Users\\Adam Cpnv\\source\\repos\\calculette\\calculette\\calculette\\calculette.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nitra\\source\\repos\\calculette\\calculette\\calculette.csproj": {
+    "C:\\Users\\Adam Cpnv\\source\\repos\\calculette\\calculette\\calculette\\calculette.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nitra\\source\\repos\\calculette\\calculette\\calculette.csproj",
+        "projectUniqueName": "C:\\Users\\Adam Cpnv\\source\\repos\\calculette\\calculette\\calculette\\calculette.csproj",
         "projectName": "calculette",
-        "projectPath": "C:\\Users\\nitra\\source\\repos\\calculette\\calculette\\calculette.csproj",
-        "packagesPath": "C:\\Users\\nitra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nitra\\source\\repos\\calculette\\calculette\\obj\\",
+        "projectPath": "C:\\Users\\Adam Cpnv\\source\\repos\\calculette\\calculette\\calculette\\calculette.csproj",
+        "packagesPath": "C:\\Users\\Adam Cpnv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adam Cpnv\\source\\repos\\calculette\\calculette\\calculette\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nitra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Adam Cpnv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

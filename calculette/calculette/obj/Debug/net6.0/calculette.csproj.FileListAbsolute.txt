@@ -13,3 +13,18 @@ C:\Users\nitra\source\repos\calculette\calculette\obj\Debug\net6.0\refint\calcul
 C:\Users\nitra\source\repos\calculette\calculette\obj\Debug\net6.0\calculette.pdb
 C:\Users\nitra\source\repos\calculette\calculette\obj\Debug\net6.0\calculette.genruntimeconfig.cache
 C:\Users\nitra\source\repos\calculette\calculette\obj\Debug\net6.0\ref\calculette.dll
+C:\Users\Adam Cpnv\Source\Repos\calculette\calculette\calculette\bin\Debug\net6.0\calculette.exe
+C:\Users\Adam Cpnv\Source\Repos\calculette\calculette\calculette\bin\Debug\net6.0\calculette.deps.json
+C:\Users\Adam Cpnv\Source\Repos\calculette\calculette\calculette\bin\Debug\net6.0\calculette.runtimeconfig.json
+C:\Users\Adam Cpnv\Source\Repos\calculette\calculette\calculette\bin\Debug\net6.0\calculette.dll
+C:\Users\Adam Cpnv\Source\Repos\calculette\calculette\calculette\bin\Debug\net6.0\calculette.pdb
+C:\Users\Adam Cpnv\Source\Repos\calculette\calculette\calculette\obj\Debug\net6.0\calculette.csproj.AssemblyReference.cache
+C:\Users\Adam Cpnv\Source\Repos\calculette\calculette\calculette\obj\Debug\net6.0\calculette.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adam Cpnv\Source\Repos\calculette\calculette\calculette\obj\Debug\net6.0\calculette.AssemblyInfoInputs.cache
+C:\Users\Adam Cpnv\Source\Repos\calculette\calculette\calculette\obj\Debug\net6.0\calculette.AssemblyInfo.cs
+C:\Users\Adam Cpnv\Source\Repos\calculette\calculette\calculette\obj\Debug\net6.0\calculette.csproj.CoreCompileInputs.cache
+C:\Users\Adam Cpnv\Source\Repos\calculette\calculette\calculette\obj\Debug\net6.0\calculette.dll
+C:\Users\Adam Cpnv\Source\Repos\calculette\calculette\calculette\obj\Debug\net6.0\refint\calculette.dll
+C:\Users\Adam Cpnv\Source\Repos\calculette\calculette\calculette\obj\Debug\net6.0\calculette.pdb
+C:\Users\Adam Cpnv\Source\Repos\calculette\calculette\calculette\obj\Debug\net6.0\calculette.genruntimeconfig.cache
+C:\Users\Adam Cpnv\Source\Repos\calculette\calculette\calculette\obj\Debug\net6.0\ref\calculette.dll
