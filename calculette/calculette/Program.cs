@@ -25,10 +25,10 @@ public class Test
 
         int num2 = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("1. Addition");
-        Console.WriteLine("2. Soustraction");
-        Console.WriteLine("3. Multiplication");
-        Console.WriteLine("4. Division");
+        DisplayMessage("1. Addition");
+        DisplayMessage("2. Soustraction");
+        DisplayMessage("3. Multiplication");
+        DisplayMessage("4. Division");
 
         switch (Console.ReadLine())
         {
@@ -45,14 +45,15 @@ public class Test
                 Console.WriteLine(num1 / num2);
                 break;
             default:
-                Console.WriteLine("Invalid choice");
+                DisplayMessage("Invalid choice");
                 break;
         }
     }
 
 
-    public static char AskUserCharÏnput(string question) {
-        return "a";
+    public static char AskUserCharÏnput(string question) 
+    {
+        return 'a';
     }
 
     public static int AskUserIntegerInput(string question)
@@ -62,24 +63,29 @@ public class Test
 
     public static void DisplayResult(int op1, char oper, int op2, int result) { }
 
-    public static void DisplayMessage(string message) { }
-
-    public static int Add(int op1, int op2) {
-        return 0;
+    public static void DisplayMessage(string message) 
+    {
+        Console.WriteLine(message);
     }
 
-    public static int Substractor(int op1, int op2) {
-        return 0;
+    public static int Add(int op1, int op2) 
+    {
+        return op1 + op2;
+    }
+
+    public static int Substractor(int op1, int op2) 
+    {
+        return op1 - op2;
     }
 
     public static int Multiply(int op1, int op2)
     {
-        return 0;
+        return op1 * op2;
     }
 
     public static int Divide(int op1, int op2)
     {
-        return 0;
+        return op1 / op2;
     }
 
 

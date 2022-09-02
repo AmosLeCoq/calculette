@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Adam Cpnv\\.nuget\\packages\\": {}
+    "C:\\Users\\Paul-Loup.GERMAIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adam Cpnv\\Source\\Repos\\calculette\\calculette\\calculette\\calculette.csproj",
+      "projectUniqueName": "C:\\Users\\Paul-Loup.GERMAIN\\source\\repos\\calculette\\calculette\\calculette\\calculette.csproj",
       "projectName": "calculette",
-      "projectPath": "C:\\Users\\Adam Cpnv\\Source\\Repos\\calculette\\calculette\\calculette\\calculette.csproj",
-      "packagesPath": "C:\\Users\\Adam Cpnv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adam Cpnv\\Source\\Repos\\calculette\\calculette\\calculette\\obj\\",
+      "projectPath": "C:\\Users\\Paul-Loup.GERMAIN\\source\\repos\\calculette\\calculette\\calculette\\calculette.csproj",
+      "packagesPath": "C:\\Users\\Paul-Loup.GERMAIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Paul-Loup.GERMAIN\\source\\repos\\calculette\\calculette\\calculette\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Adam Cpnv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Paul-Loup.GERMAIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
