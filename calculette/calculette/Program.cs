@@ -8,8 +8,9 @@ public class Test
         int i = 0;
         do
         {
+            System.Console.Clear();
             calcul();
-            Console.WriteLine("vous voulez continuer ? (1 pour arreter)(autre pour continuer)");
+            DisplayMessage("vous voulez continuer ? (1 pour arreter)(autre pour continuer)");
             i = Convert.ToInt32(Console.ReadLine());
             
         } while (i != 1);   
@@ -17,51 +18,60 @@ public class Test
     
     public static void calcul()
     {
-        Console.WriteLine("Num1");
 
-        int num1 = Convert.ToInt32(Console.ReadLine());
+        int num1 = AskUserIntegerInput("Num1");
 
-        Console.WriteLine("Num2");
+        int num2 = AskUserIntegerInput("Num2");
 
-        int num2 = Convert.ToInt32(Console.ReadLine());
+        
+        
 
-        DisplayMessage("1. Addition");
-        DisplayMessage("2. Soustraction");
-        DisplayMessage("3. Multiplication");
-        DisplayMessage("4. Division");
+        
 
-        switch (Console.ReadLine())
+        switch (AskUserCharÏnput("+ Addition\n- Soustraction\n* Multiplication\n/ Division"))
         {
-            case "1":
-                Console.WriteLine(num1 + num2);
+            case '+':
+
+                DisplayResult(num1,'+',num2, Add(num1, num2));
+            
                 break;
-            case "2":
-                Console.WriteLine(num1 - num2);
+            case '-':
+
+                DisplayResult(num1, '-', num2, Substractor(num1, num2));
                 break;
-            case "3":
-                Console.WriteLine(num1 * num2);
+            case '*':
+
+                DisplayResult(num1, '*', num2, Multiply(num1, num2));
                 break;
-            case "4":
-                Console.WriteLine(num1 / num2);
+            case '/':
+
+                DisplayResult(num1, '/', num2, Divide(num1, num2));
                 break;
             default:
                 DisplayMessage("Invalid choice");
                 break;
         }
     }
-
+    
 
     public static char AskUserCharÏnput(string question) 
     {
-        return 'a';
+        DisplayMessage(question);
+        return Convert.ToChar(Console.ReadLine()); ;
     }
 
     public static int AskUserIntegerInput(string question)
     {
-        return 0;
+        DisplayMessage(question);
+        
+
+        return Convert.ToInt32(Console.ReadLine());
     }
 
-    public static void DisplayResult(int op1, char oper, int op2, int result) { }
+    public static void DisplayResult(int op1, char oper, int op2, int result) 
+    {
+        DisplayMessage("Vous avez effectuer " + op1 + oper + op2 + " est = " + result);
+    }
 
     public static void DisplayMessage(string message) 
     {
