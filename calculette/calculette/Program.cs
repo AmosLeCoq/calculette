@@ -52,7 +52,6 @@ namespace Calculator
         }
 
 
-        _
         public static char AskUserCharÏnput(string question) 
         {
             DisplayMessage(question);

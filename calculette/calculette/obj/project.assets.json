@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "MathsBasicOperation/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/MathsBasicOperation.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MathsBasicOperation.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "MathsBasicOperation/1.0.0": {
-      "type": "project",
-      "path": "../MathsBasicOperation/MathsBasicOperation.csproj",
-      "msbuildProject": "../MathsBasicOperation/MathsBasicOperation.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "MathsBasicOperation >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\Amos.LE-COQ\\.nuget\\packages\\": {}
@@ -52,11 +33,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\Amos.LE-COQ\\Documents\\3ème\\ICT-226a\\cal\\calculette\\calculette\\MathsBasicOperation\\MathsBasicOperation.csproj": {
-              "projectPath": "C:\\Users\\Amos.LE-COQ\\Documents\\3ème\\ICT-226a\\cal\\calculette\\calculette\\MathsBasicOperation\\MathsBasicOperation.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
