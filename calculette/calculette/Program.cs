@@ -30,12 +30,12 @@ namespace Calculator
             {
                 case '+':
 
-                    DisplayResult(num1,'+',num2, Add(num1, num2));
-            
+                    DisplayResult(num1, '+', num2, calcule.add(num1, num2));
+
                     break;
                 case '-':
 
-                    DisplayResult(num1, '-', num2, Substractor(num1, num2));
+                    DisplayResult(num1, '-', num2, calcule.substract(num1, num2));
                     break;
                 case '*':
 
